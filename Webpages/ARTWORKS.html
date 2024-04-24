@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTWORKS</title>
+    <link rel="stylesheet" href="Side.css">
+</head>
+<body>
+    <nav>
+        <div class="details">
+            <img src="./media/All/Art/images (1).jpeg"><br>
+            <p>
+           BARIMA ARTWORKS<br>
+           +23354-118-2696<BR>
+            SUNYANI.
+            </p>
+       </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            
+             <li> <a href="https://twitter.com/login">
+                        <img src="./media/twittenr.png" 
+                        alt="Twitter">
+                    </a></li>
+                   <li> <a href="https://mobile.facebook.com/login/?locale=en_GB&refsrc=deprecated&_rdc=1&_rdr">
+                        <img src="./media/facebook.png" 
+                        alt="Facebook">
+                   </a></li>
+                    <li><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">
+                        <img src="./media/mail.png" 
+                        alt="Mail">
+                    </a></li>
+                    <li> <a href="https://www.instagram.com/accounts/login/">
+                        <img src="./media/instagramj.png" 
+                        alt="instagram">
+                    </a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1> Image Gallery</h1>
+        <div class="gallery">
+            <img src="./media/All/Art/agbee1.jpg">
+            <div class="desc">
+
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="./media/All/Art/handmade_clay_work_based_on_van_gogh_s_art_by_liskaflower_ddk8boy-pre.jpg">
+            <div class="desc">
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="./media/All/Art/Samuel-Kumi.jpg">
+            <div class="desc">
+                 <br>
+    
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="./media/All/Art/images.jpeg">
+            <div class="desc">
+                
+            </div>
+        </div>
+
+    </div>
+       
+
+        <script>
+            document.querySelectorAll('.gallery img').forEach(image=>{
+image.oneclick=()=>{
+    document.querySelector('.popup-image').style.display ='block';
+    document.querySelector('.popup-image img').src= image.getAttribute('src');
+}
+            });
+        </script>
+</body>
+<footer>
+    @Prime 2024
+</footer>
+</html>
